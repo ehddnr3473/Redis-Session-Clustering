@@ -1,0 +1,8 @@
+spring:
+  config:
+    import: "classpath:application-secret.yml"
+  data:
+    redis:
+      host: localhost
+      password: ENC(a5MexPu6FfYDW8c2YDL4ro02msJ0Dd57)
+      port: 6379
